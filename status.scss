@@ -1,0 +1,44 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #028D2B;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-status styles
+// ----------------------------------------------------------------------------
+.widget-status {
+
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+
+  &.large h3 {
+    font-size: 65px;
+  }
+}
+
+.status-color-2 {
+  background-color: #028D2B;
+}
+
+.status-color-1 {
+  background-color: #FC8303;
+}
+
+.status-color-0 {
+  background-color: #F42B04;
+}
